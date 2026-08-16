@@ -1,10 +1,30 @@
 {
   "name": "senepay-js",
-  "version": "1.0.0",
-  "description": "SDK JavaScript officiel SenePay — Paiement mobile Sénégal",
+  "version": "2.0.0",
+  "description": "SDK Node.js officiel SenePay — paiement mobile Sénégal et Afrique de l'Ouest (usage serveur uniquement)",
   "main": "src/index.js",
-  "keywords": ["senepay", "payment", "senegal", "africa", "orange-money", "wave"],
+  "keywords": [
+    "senepay",
+    "payment",
+    "senegal",
+    "africa",
+    "orange-money",
+    "wave"
+  ],
   "author": "Dominiqk Mendy <contact@sene-pay.com>",
   "license": "MIT",
-  "repository": {"type": "git", "url": "https://github.com/Dominiqk77/senepay-js-sdk"}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dominiqk77/senepay-js-sdk"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --check src/index.js"
+  }
 }
